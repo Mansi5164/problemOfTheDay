@@ -11,7 +11,9 @@ Example:
            Output: true
            Explanation: mat[1][1] is equal to 5.
 
-# Eliminating rows or columns – O(n + m) Time and O(1) Space:
+Eliminating rows or columns – 
+-> O(n + m) Time 
+-> O(1) Space
 Cases:
 1. x is equals to the current element : return true because this will end the search.
 2. x is greater than the current element : it means x is not present in the current row this ensures all the elements are smaller then the current element because
